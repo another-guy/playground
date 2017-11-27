@@ -10,6 +10,10 @@
     "double-check": "npm run test:single-run && npm run tslint"
   },
   "author": "Igor Soloydenko",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/another-guy/playground.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "^4.0.5",
