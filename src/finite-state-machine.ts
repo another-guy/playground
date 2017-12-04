@@ -13,7 +13,7 @@ export interface StateMachineRuntime<State extends string, Signal extends string
   isInFinalState(): boolean;
 }
 
-type Stream<Signal> = Signal[];
+export type Stream<Signal> = Signal[];
 
 export class StateMachine<State extends string, Signal extends string>
   implements
